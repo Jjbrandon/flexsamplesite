@@ -1,0 +1,67 @@
+.footer{
+    display:flex;
+    background-color: black;
+    height: 60vh;
+}
+
+.image{
+    display: flex;
+    padding-left: 10vh;
+    padding-top: 4vh;
+    
+}
+
+.info{
+    padding-top: 6vh;
+    display:inline-block;
+    padding-left: 15vh;
+    color:white;
+
+}
+
+.shows{
+    padding-top: 6vh;
+    display: inline-block;
+    color:white;
+    padding-left: 16vh;
+
+}
+
+.social{
+    padding-top: 6vh;
+    padding-left: 14vh;
+    color:white;
+}
+
+.social:hover{
+    font-size: 0;
+}
+
+.social:hover::after{
+    content: attr(data-hover);
+    color: white;
+    font-size: 15px;
+}
+
+.shows:hover{
+    font-size: 0;
+}
+
+.shows:hover::after{
+    content: attr(data-hover);
+    color: white;
+    font-size: 15px;
+
+}
+
+.info:hover{
+    font-size: 0;
+}
+
+.info:hover::after{
+    content: attr(data-hover);
+    color: white;
+    font-size: 15px;
+
+
+}

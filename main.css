@@ -1,0 +1,87 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+.wrapper{
+    margin: 0%;
+}
+.main{
+    display: flex;
+    color: white;
+    margin: 0%;
+    background-image: url(theater-image-background.png);
+    height: 109vh;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+}
+
+h1{
+    text-align: center;
+}
+
+.month{
+    margin-top: 10%;
+    margin-left: 22%;
+    margin-right: 22%;
+    background-color: rgb(214, 202, 202);
+    height:4;
+    border: 1px solid black;
+
+}
+
+#img1{
+    margin-left: 22.5%;
+    margin-top: 8vh;
+    height: 175px;
+    width: 250px;
+    display: flex
+}
+
+.showtimes{
+    display: block;
+    padding-left: 9vh;
+    margin-top: 5vh;
+}
+.content{
+    display: flex;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 11vh;
+    margin-left: 6vh;
+    width: 125px;
+    height: 50px;
+    border: none;
+    color: rgb(8, 8, 8);
+    background-color: yellow;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 blueviolet;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+}
+
+.btn:hover{
+    box-shadow: inset 125px 0 0 0 blueviolet;
+    cursor: pointer;
+    color: white
+}
+
+.seperator{
+    min-height: 2px;
+    background-color: lightgrey;
+    margin-top: 5vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+
